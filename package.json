@@ -1,0 +1,27 @@
+{
+  "name": "gitpub-deliverable",
+  "version": "1.0.0",
+  "description": "gitpub",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcguirto/gitPub.git"
+  },
+  "keywords": [
+    "pub"
+  ],
+  "author": "Tyson McGuire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcguirto/gitPub/issues"
+  },
+  "homepage": "https://github.com/mcguirto/gitPub#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "liquid-express-views": "^1.0.8"
+  }
+}
